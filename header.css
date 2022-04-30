@@ -1,0 +1,165 @@
+.flex {
+    height: 80px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    z-index: 2000;
+}
+ 
+
+
+
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.hamburger {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.ytlogo {
+    height: 180px;
+    margin-left: 50px;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin-right: 50px;
+}
+
+.search-bar {
+    flex: 1;
+    height: 50px;
+    box-shadow: 2px 2px 6px rgb(222, 216, 216);
+    border-style: solid;
+    border-width: 1px;
+    width: 0;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.search-bar::placeholder {
+    font-size: 28px;
+    text-align: left;
+
+}
+
+.search-botton {
+    height: 55px;
+    width: 90px;
+    border: 1px solid rgb(111, 108, 108);
+    margin-left: -2px;
+    margin-right: 5px;
+    position:relative;
+}
+
+.search-icon {
+    height: 70%;
+}
+
+.voice-botton {
+    height: 58px;
+    width: 54px;
+    border: none;
+    background-color: rgb(221, 215, 215);
+    border-radius: 24px;
+    position: relative;
+   
+   
+}
+
+.voice-icon {
+    height: 45%;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.youtubeapps {
+    height: 30px;
+}
+
+.create {
+    height: 45px;
+}
+
+.notification {
+    height: 38px;
+  
+}
+.notify-div{
+   position:relative;
+   display:flex;
+   justify-content: center;
+}
+.notify-num{
+    position: absolute;
+    background-color: rgb(242, 39, 39);
+    color:white;
+    border:none;
+    top:-7px;
+    right:-10px;
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    font-size:15px;
+}
+
+.signin {
+    border: 1px solid rgb(30, 111, 241);
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(30, 111, 241);
+}
+.signin-div{
+    display:flex;
+    position:relative;
+    justify-content:center;
+    
+}
+.apps, .create-div   {
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.search-botton .tooltip, .voice-botton .tooltip, .apps .tooltip, .create-div .tooltip, .notify-div .tooltip, .signin-div .tooltip {
+    
+    
+    position:absolute;
+    background-color: gray;
+    color:white;
+    padding:2px 6px 2px 6px;
+    font-family: Arial;
+    font-size: 15px;
+    bottom:-35px;
+    opacity:0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-botton:hover .tooltip, .voice-botton:hover .tooltip, .apps:hover .tooltip, .create-div:hover .tooltip, .notify-div:hover .tooltip, .signin-div:hover .tooltip
+{
+   opacity:1;
+}

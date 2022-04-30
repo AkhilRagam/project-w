@@ -1,0 +1,90 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 80px;
+    bottom: 0;
+    width: 200px;
+    background-color: white;
+    border-right: 1px solid gray;
+}
+
+.sidebar2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    overflow-y: scroll;
+    height: 50%;
+    border-bottom: 1px solid gray;
+    
+}
+
+.home {
+    height: 40px;
+    width: 40px;
+
+}
+
+.explore {
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+.sub {
+    height: 35px;
+    width: 30px;
+    margin-left: 2px;
+}
+
+.history {
+    height: 30px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.user {
+    height: 30px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.youtube {
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.live {
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.help {
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.settings {
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.sidebar2 p{
+    font-family: Arial;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 6px;
+}
+
+.divisions:hover {
+    background-color: lightgray;
+
+}
+P{
+    margin-left: 5px;
+    margin-right: 10px;
+}
